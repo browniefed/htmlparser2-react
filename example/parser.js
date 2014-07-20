@@ -8,3 +8,4 @@ var parsedComponent = reactParser(html);
 
 console.log('Original : ' + html);
 console.log('Converted: ' + React.renderComponentToStaticMarkup(parsedComponent));
+console.log(html == React.renderComponentToStaticMarkup(parsedComponent));
