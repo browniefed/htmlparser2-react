@@ -5,9 +5,15 @@ Parses raw html use htmlparser2 to a React DOM structure.
 
 Apparently React checks instance of ReactDescriptor thus requiring the same React lib to parse/render a component. Ohwell, so just pass in your React to the function.
 
+So the process for now is
+```
+npm install htmlparser2-react
+npm install react
+```
+
 Quick example
 ```javascript
-var reactParser = require('./../lib/index'),
+var reactParser = require('htmlparser2-react'),
 	React = require('react');
 
 
@@ -29,7 +35,9 @@ There are likely more elegant solutions, like actually hooking into htmlparser2 
 
 
 Should you use this? No.
+
 Why would you use this? Maybe you don't want dangerously set innerhtml?
 
 Have fun
+
 Log issues if you find any, I'm sure there are
