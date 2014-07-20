@@ -1,6 +1,6 @@
 {
   "name": "htmlparser2-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert raw html to react DOM components",
   "main": "htmlparser2-react.js",
   "scripts": {
