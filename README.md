@@ -19,9 +19,11 @@ console.log(html == React.renderComponentToStaticMarkup(parsedComponent));
 ```
 
 
-This by no means takes into account everything, like CData, no special cases for script tags.
+This by no means takes into account everything, like CData, no special cases for script tags, other stuff that I have no idea about.
 
 It can be browserified for ES5 compliant browsers.
+
+There are likely more elegant solutions, like actually hooking into htmlparser2 DOMHandler thus not parsing to an object then converting to React but I can do that later.
 
 
 Should you use this? No.
