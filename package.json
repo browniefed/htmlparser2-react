@@ -1,7 +1,12 @@
 {
   "name": "htmlparser2-react",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Convert raw html to react DOM components",
+  "keywords": [
+    "react",
+    "htmlparser2",
+    "react component"
+  ],
   "main": "htmlparser2-react.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +15,12 @@
   "license": "MIT",
   "dependencies": {
     "htmlparser2": "^3.7.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/browniefed/htlmparser2-react.git"
+  },
+  "homepage": "http://github.com/browniefed/htlmparser2-react",
+  "github": "http://github.com/browniefed/htlmparser2-react",
+  "bugs": "http://github.com/browniefed/htlmparser2-react/issues"
 }
