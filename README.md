@@ -8,7 +8,7 @@ If you require .11.2 and below please use release .04
 
 So the process for now is
 ```
-npm install htmlparser2-react
+npm install react-htmlparser2
 npm install react
 ```
 
