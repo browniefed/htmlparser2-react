@@ -3,7 +3,8 @@ htmlparser2-react
 
 Parses raw html use htmlparser2 to a React DOM structure.
 
-Apparently React checks instance of ReactDescriptor thus requiring the same React lib to parse/render a component. Ohwell, so just pass in your React to the function.
+So that this package doesn't come with React you must pass it the version you are using, currently supports .12 and up.
+If you require .11.2 and below please use release .04
 
 So the process for now is
 ```
@@ -22,7 +23,7 @@ var html = '<div data-id="1" class="hey this is a class" style="width:100%;heigh
 var parsedComponent = reactParser(html, React);
 
 
-console.log(html == React.renderComponentToStaticMarkup(parsedComponent));
+console.log(html == React.renderToStaticMarkup(parsedComponent));
 //logs true
 ```
 

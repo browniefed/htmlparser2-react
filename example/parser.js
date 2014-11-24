@@ -7,5 +7,5 @@ var html = '<div data-id="1" class="hey this is a class" style="width:100%;heigh
 var parsedComponent = reactParser(html, React);
 
 console.log('Original : ' + html);
-console.log('Converted: ' + React.renderComponentToStaticMarkup(parsedComponent));
-console.log(html == React.renderComponentToStaticMarkup(parsedComponent));
+console.log('Converted: ' + React.renderToStaticMarkup(parsedComponent));
+console.log(html == React.renderToStaticMarkup(parsedComponent));
