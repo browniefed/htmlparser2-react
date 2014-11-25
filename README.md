@@ -1,4 +1,4 @@
-htmlparser2-react
+react-htmlparser2
 ================
 
 Parses raw html use htmlparser2 to a React DOM structure.
