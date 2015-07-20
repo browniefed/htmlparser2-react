@@ -1,6 +1,6 @@
 {
   "name": "react-htmlparser2",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Convert raw html to react DOM components",
   "keywords": [
     "react",
@@ -14,8 +14,7 @@
   "author": "Jason Brown",
   "license": "MIT",
   "dependencies": {
-    "htmlparser2": "^3.8.2",
-    "react": "^0.12.1"
+    "htmlparser2": "^3.8.3"
   },
   "repository": {
     "type": "git",
