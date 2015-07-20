@@ -3,8 +3,7 @@ react-htmlparser2
 
 Parses raw html use htmlparser2 to a React DOM structure.
 
-So that this package doesn't come with React you must pass it the version you are using, currently supports .12 and up.
-If you require .11.2 and below please use release .04
+This package is now agnostic, sort of tested in .13.3. If it doesn't work well fix it?
 
 So the process for now is
 ```
